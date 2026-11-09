@@ -54,6 +54,7 @@ int main(int argc, char *argv[])
     }
 
     // De-Initialization
+    rlImGuiShutdown();
     //--------------------------------------------------------------------------------------
     CloseWindow(); // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
